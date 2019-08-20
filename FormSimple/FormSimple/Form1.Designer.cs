@@ -82,6 +82,7 @@
             this.Controls.Add(this.lblName);
             this.Name = "frmSimple";
             this.Text = "Form Simple";
+            this.Load += new System.EventHandler(this.FrmSimple_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
