@@ -32,7 +32,7 @@ namespace FormSimple
             //Message Box con el nombre
             string name;
             name = this.txtName.Text;
-            MessageBox.Show("Bienvenido " + name, "Bienvenido");
+            MessageBox.Show("Bienvenido " + name, "Inicio de sesion", MessageBoxButtons.OK,MessageBoxIcon.Information);
 
         }
 
