@@ -24,7 +24,7 @@ namespace FormSimple
 
         private void BtnExit_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void BtnOk_Click(object sender, EventArgs e)
@@ -37,6 +37,11 @@ namespace FormSimple
         }
 
         private void FrmSimple_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtName_TextChanged(object sender, EventArgs e)
         {
 
         }
